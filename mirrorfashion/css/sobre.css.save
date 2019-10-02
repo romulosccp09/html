@@ -9,16 +9,16 @@ h1{
 }
 
 h2{
-   border-bottom: 2px solid #333333;
+   border-botton: 2px solid #333333;
    margin-top: 30px;
 }
 
-#familia-pelho{
+#img-historia{
   background-color: #F2EDED; /* cor do fundo.*/
   border: 3px double #ccc; /*borda da imagem.*/ 
   text-align: center; /* alinha a imagem ao centro.*/
   float: right;
-  margin: 0 0 10px 10px;		
+  margin: 0 10px 10px 0;		
 }
 
  figcaption{
@@ -45,8 +45,8 @@ p{
     padding: 30px 0;
 }
 
-#rodape img{
-     margin-right: 30px;
+# rodape img{
+     margin-rigth: 30px;
      vertical-align: middle;
      width: 94px;
 }

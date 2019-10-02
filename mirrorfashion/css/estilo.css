@@ -1,0 +1,130 @@
+/*definindo classe sacola*/
+.sacola{
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px; 
+}
+
+/* definindo listas*/
+.menu-opcoes ul{
+    font-size: 15px;
+}
+
+/*cor da ancoragem*/
+.menu-opcoes a{
+    color: #003366;
+}
+
+/* fontes do corpo do arquivo*/
+body{
+    color: #333333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/*pondo menu links header em linha*/
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+/*classe container de estilo do header*/
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
+/*posicionando reader*/
+header{
+    position: relative;
+}
+
+/*posicionndo menu*/
+.menu-opcoes{ 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*posição ícone sacola*/
+.sacola{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/**   Um fundo cinza nas caixas de busca e no menu
+  * de departamentos.
+  *   Texto  em negrito e apresentado em maiúsculas.
+  * também algumas regras de tamanhos e margens.
+  **/
+.busca,
+.menu-departamentos{
+    background-color: #DCDCDC;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-right: 10px;
+    width: 230px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2{
+    margin: 10px;
+}
+
+.menu-departamentos li{
+    color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-departamentos a{
+    color: #333333;
+    text-decoration: none;
+}
+
+/**
+   *  Na busca tamanho do campo de texto para melhor encaixar no * design e use seletores de atributo do CSS para isso.
+**/
+
+.busca input[type=search]{
+    width: 170px;
+}
+
+/**
+ *  Para que o menu de departamentos e a busca estejam à * *     * esquerda na página, vamos flutuar esses
+ * elementos com float:left .
+ *  Mas só isso fará com que o menu fique a direita da busca. 
+ * Precisamos indicar ao menu-departamentos que ele deve flutuar * à esquerda mas não ao lado de outro elemento. Conseguimos
+ * isso com a propriedade clear .
+**/
+
+.busca,
+.menu-departamentos{
+    float: left;
+}
+
+.menu-departamentos{
+    clear: left;
+}
+
+/**
+  *  Acertar as margens e posicionamentos no menu lateral e no  
+  * topo.
+**/
+
+.destaque {
+    margin-top: 10px;
+    }
+
+.menu-departamentos {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    }
